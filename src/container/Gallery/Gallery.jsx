@@ -4,7 +4,7 @@ import { SubHeading } from '../../components';
 import './Gallery.css';
 import {BsInstagram, BsArrowLeftShort, BsArrowRightShort} from 'react-icons/bs'
 
-const imageList = [images.gallery01, images.gallery02, images.gallery03, images.gallery04]
+const imageList = [images.gallery01, images.gallery02, images.gallery03, images.gallery04, images.gallery05]
 
 const Gallery = () => {
   const scrollRef = useRef(null)
