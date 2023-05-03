@@ -11,7 +11,7 @@ const AboutUs = () => (
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="abut-spoon" className='spoon__image' />
-        <p className='p_opensans'>
+        <p className='p_opensans' style={{color:'white'}}>
           Vertragliche Laufzeitinkongruenz: Um zu einem Verständnis der grundlegenden Aspekte ihres Liquiditätsbedarfs zu kommen, sollten die Banken darüber hinaus die geografische.
         </p>
         <button className='custom__button'>Know More</button>
@@ -24,7 +24,7 @@ const AboutUs = () => (
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="abut-spoon" className='spoon__image' />
-        <p className='p_opensans'>
+        <p className='p_opensans' style={{color:'white'}}>
           Um zu einem Verständnis der grundlegenden Aspekte ihres Liquiditätsbedarfs zu kommen, sollten die Banken darüber hinaus die geografische.
         </p>
         <button className='custom__button'>Know More</button>

@@ -10,7 +10,6 @@
 
 .app__bg {
   background: url('./assets/bg.jpg');
-  background-color: black;
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
