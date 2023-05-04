@@ -5,7 +5,7 @@ import {data, images} from '../../constants'
 import './SpecialMenu.css';
 
 const SpecialMenu = () => (
-  <div className='app__specialMenu flex__center'>
+  <div className='app__specialMenu flex__center section__padding'>
     <div className="app__specialMenu-title">
       <SubHeading title={'Menu that fits you Pallete'}/>
       <h1 className="headtext__cormorant">Today's Special</h1>
