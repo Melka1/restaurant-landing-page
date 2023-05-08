@@ -35,7 +35,7 @@ return (
         {
           imageList.map((image, index)=>(
             <div className="app__gallery-images_card flex__center" key={`gallery-image-${index+1}`}>
-              <img src={image} alt="gallery" />
+              <img src={image} alt="gallery" loading='lazy' />
               <BsInstagram className='gallery__image-icon'/>
             </div>
           ))

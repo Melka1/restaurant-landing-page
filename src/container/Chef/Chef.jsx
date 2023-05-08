@@ -6,7 +6,7 @@ import './Chef.css';
 const Chef = () => (
   <div className="app__bg app__wrapper section__padding">
     <div className="app__wrapper_img app__wrapper_img-reverse">
-      <img src={images.chef} alt="chef" />
+      <img src={images.chef} alt="chef" loading='lazy' />
     </div>
 
     <div className="app__wrapper_info">
@@ -15,7 +15,7 @@ const Chef = () => (
 
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
-          <img src={images.quote} alt="quote" />
+          <img src={images.quote} alt="quote" loading='lazy' />
           <p className='p__opensans'>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, impedit.
           </p>
@@ -28,7 +28,7 @@ const Chef = () => (
       <div className="app__chef-sign">
         <p>Kevin Luo</p>
         <p className='p__opensans'>Chef & Founder</p>
-        <img src={images.sign} alt="sign" />
+        <img src={images.sign} alt="sign" loading='lazy' />
       </div>
     </div>
   </div>
